@@ -5,10 +5,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: cornflowerblue;
     margin: 0; 
-
-
 }
-
 h1 {
     /*  Cor diferente de preto nos títulos, alinhamento no centro e tamanho modificado */
     color: blue;
@@ -22,12 +19,10 @@ h1 {
     font-weight: 400; 
     font-style: normal;
 }
-
 /*  Agrupamento de tags */
 h2, h3 {
     color: orange;
 }
-
 /*  Seletor de CLASSE */
 .caixa-destaque {
     /*  As 3 estilizações de Box Model */
@@ -39,14 +34,12 @@ h2, h3 {
     border-color: blue;
     border-radius: 10px; 
 }
-
 /*  Seletor de ID */
 #paragrafo-especial {
     color: darkblue;
     font-size: 20px; 
     font-weight: bold;
 }
-
 /*  Estilização de Lista */
 ul {
     /* Muda a bolinha padrão para um quadrado */
