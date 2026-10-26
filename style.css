@@ -1,0 +1,57 @@
+
+body {
+    /*  Cor de fundo */
+    background-color: #dfd9d2;
+    font-family: 'Roboto', sans-serif;
+    color: cornflowerblue;
+    margin: 0; 
+
+
+}
+
+h1 {
+    /*  Cor diferente de preto nos títulos, alinhamento no centro e tamanho modificado */
+    color: blue;
+    text-align: center; 
+    font-size: 40px; 
+    /*  Outra estilização ensinada em aula */
+    text-decoration: underline;
+    text-decoration-color: #fff8f0; 
+   font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+}
+
+/*  Agrupamento de tags */
+h2, h3 {
+    color: orange;
+}
+
+/*  Seletor de CLASSE */
+.caixa-destaque {
+    /*  As 3 estilizações de Box Model */
+    margin: 20px; 
+    padding: 20px;
+    /*  três propriedades relacionadas a borda */
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 10px; 
+}
+
+/*  Seletor de ID */
+#paragrafo-especial {
+    color: darkblue;
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+/*  Estilização de Lista */
+ul {
+    /* Muda a bolinha padrão para um quadrado */
+    list-style-type: square; 
+    color: darkblue;
+    margin-left: 20px;
+}
+
